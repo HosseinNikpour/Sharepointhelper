@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Customize the text in square brackets. 
+Remove brackets when filling in, e.g.
+Name="[NAME]" ==> Name="MyWorkflow" -->
+
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Workflow
+     Name="sharepointHelper - HN_SetPermissionWF"
+     Description="My SharePoint Workflow"
+     Id="121c9f5b-a624-430a-847d-7846a0eea0ee"
+     CodeBesideClass="sharepointHelper.HN_SetPermissionWF.HN_SetPermissionWF"
+     CodeBesideAssembly="sharepointHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d4de763da6ab5c5f">
+    <Categories/>
+    <MetaData>
+      <AssociationCategories>List</AssociationCategories>
+      <!-- Tags to specify InfoPath forms for the workflow; delete tags for forms that you do not have -->
+      <!--<Association_FormURN>[URN FOR ASSOCIATION FORM]</Association_FormURN>
+       <Instantiation_FormURN>[URN FOR INSTANTIATION FORM]</Instantiation_FormURN>
+      <Task0_FormURN>[URN FOR TASK (type 0) FORM]</Task0_FormURN>
+      <Task1_FormURN>[URN FOR TASK (type 1) FORM]</Task1_FormURN>-->
+      <!-- Modification forms: create a unique guid for each modification form -->
+      <!--<Modification_[UNIQUE GUID]_FormURN>[URN FOR MODIFICATION FORM]</Modification_[UNIQUE GUID]_FormURN>
+      <Modification_[UNIQUE GUID]_Name>[NAME OF MODIFICATION TO BE DISPLAYED AS A LINK ON WORKFLOW STATUS PAGE</Modification_[UNIQUE GUID]_Name>
+      -->
+      <StatusPageUrl>_layouts/WrkStat.aspx</StatusPageUrl>
+    </MetaData>
+  </Workflow>
+</Elements>

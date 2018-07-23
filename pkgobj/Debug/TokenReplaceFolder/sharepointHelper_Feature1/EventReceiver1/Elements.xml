@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers >
+      <Receiver>
+        <Name>EventReceiver1FieldAdded</Name>
+        <Type>FieldAdded</Type>
+        <Assembly>sharepointHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d4de763da6ab5c5f</Assembly>
+        <Class>sharepointHelper.EventReceiver1.EventReceiver1</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventReceiver1FieldAdding</Name>
+        <Type>FieldAdding</Type>
+        <Assembly>sharepointHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d4de763da6ab5c5f</Assembly>
+        <Class>sharepointHelper.EventReceiver1.EventReceiver1</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventReceiver1FieldUpdated</Name>
+        <Type>FieldUpdated</Type>
+        <Assembly>sharepointHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d4de763da6ab5c5f</Assembly>
+        <Class>sharepointHelper.EventReceiver1.EventReceiver1</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventReceiver1FieldUpdating</Name>
+        <Type>FieldUpdating</Type>
+        <Assembly>sharepointHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d4de763da6ab5c5f</Assembly>
+        <Class>sharepointHelper.EventReceiver1.EventReceiver1</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="7a4e1e22-15ec-429b-b979-74c8fa3c164b" Scope="Site" Title="sharepointHelper Feature2">
+  <ElementManifests>
+    <ElementManifest Location="HN_SetPermissionWF\Elements.xml" />
+  </ElementManifests>
+</Feature>

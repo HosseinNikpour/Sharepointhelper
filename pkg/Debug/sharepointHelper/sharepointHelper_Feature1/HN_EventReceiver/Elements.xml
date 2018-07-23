@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="100">
+      <Receiver>
+        <Name>HN_EventReceiverItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>sharepointHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d4de763da6ab5c5f</Assembly>
+        <Class>sharepointHelper.HN_EventReceiver.HN_EventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>HN_EventReceiverItemUpdated</Name>
+        <Type>ItemUpdated</Type>
+        <Assembly>sharepointHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d4de763da6ab5c5f</Assembly>
+        <Class>sharepointHelper.HN_EventReceiver.HN_EventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

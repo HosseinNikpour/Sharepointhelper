@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="f73d6469-d835-4478-8aa1-b76e89deeb2d" Scope="Web" Title="sharepointHelper Feature1">
+  <ElementManifests>
+    <ElementManifest Location="HN_EventReceiver\Elements.xml" />
+    <ElementManifest Location="EventReceiver1\Elements.xml" />
+  </ElementManifests>
+</Feature>

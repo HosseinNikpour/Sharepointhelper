@@ -1,0 +1,5 @@
+C:\Users\spadmin\documents\visual studio 2013\Projects\sharepointHelper\sharepointHelper\bin\Debug\sharepointHelper.dll
+C:\Users\spadmin\documents\visual studio 2013\Projects\sharepointHelper\sharepointHelper\bin\Debug\sharepointHelper.pdb
+C:\Users\spadmin\documents\visual studio 2013\Projects\sharepointHelper\sharepointHelper\obj\Debug\sharepointHelper.csprojResolveAssemblyReference.cache
+C:\Users\spadmin\documents\visual studio 2013\Projects\sharepointHelper\sharepointHelper\obj\Debug\sharepointHelper.dll
+C:\Users\spadmin\documents\visual studio 2013\Projects\sharepointHelper\sharepointHelper\obj\Debug\sharepointHelper.pdb

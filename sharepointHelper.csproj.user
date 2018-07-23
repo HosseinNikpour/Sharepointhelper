@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SharePointSiteUrl>http://net-sp:90/</SharePointSiteUrl>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
+        <ProjectItemStore Id="{f71d147c-656a-4c35-a49a-dfa246330165}">
+          <DisplayName>sharepointHelper - HN_SetPermissionWF</DisplayName>
+          <HistoryList>تاریخچۀ فرآیند</HistoryList>
+          <HistoryListGuid>{f48565a5-83e6-4135-acb3-b7e40811925b}</HistoryListGuid>
+          <TaskList>وظیفه ها</TaskList>
+          <TaskListGuid>{ee1dc4f1-b137-4bb0-bb41-cc630566acae}</TaskListGuid>
+          <AutoAssociate>false</AutoAssociate>
+          <ManualStart>true</ManualStart>
+          <ListURL>http://net-sp/Lists/GreatestSupervisionPCDetails/AllItems.aspx</ListURL>
+          <TargetList>ارزشیابی نظارت عالیه جزئیات</TargetList>
+          <TargetListGuid>{0023a6af-b186-4304-89d0-153be00b8b5a}</TargetListGuid>
+          <StartOnCreate>true</StartOnCreate>
+          <StartOnChange>false</StartOnChange>
+        </ProjectItemStore>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

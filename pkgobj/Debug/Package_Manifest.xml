@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="2ba93274-d4c7-41a2-a3bb-32d21339edae" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="sharepointHelper.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="sharepointHelper_Feature1\Feature.xml" />
+    <FeatureManifest Location="sharepointHelper_Feature2\Feature.xml" />
+  </FeatureManifests>
+</Solution>
